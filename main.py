@@ -54,6 +54,16 @@ for i in range(est_cant):
     }
     estudiantes.append(estudiante)
 
+stud = 1
+print("\n\n-----ESTUDIANTES INGRESADOS-----")
+for estudiante in estudiantes:
+    print(f"\nESTUDIANTE {stud}:")
+    stud+=1
+    print(f"Nombre: {estudiante['nombre']}")
+    notan = 1
+    print("-----NOTAS-----")
+    for nota in estudiante['notas']:
+        print(f"   Nota {notan}: {nota}")
+        notan+=1
 
-
-
+    print("Promedio: {promedio}")
