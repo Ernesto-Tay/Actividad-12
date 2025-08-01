@@ -66,4 +66,4 @@ for estudiante in estudiantes:
         print(f"   Nota {notan}: {nota}")
         notan+=1
 
-    print("Promedio: {promedio}")
+    print(f"Promedio: {promedio}")
